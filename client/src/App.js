@@ -20,6 +20,7 @@ const App = () => {
     setSavedList([...savedList, movie]);
   };
 
+  
   useEffect(() => {
     getMovieList();
   }, []);
